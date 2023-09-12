@@ -1,0 +1,6 @@
+l1 = ['one', 'two', 'three']
+
+# Use the extend method to insert 'zero' twice at index 1
+l1[1:1] = ['zero', 'zero']
+
+print(l1)
